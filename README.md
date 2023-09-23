@@ -1,2 +1,2 @@
 # VVBot
-A bot for a roblox game called Voxel Venturers that i spend too long on that mines blocks for you, more in-depth info in the program
+A bot that mines blocks for you in a roblox game that I spend way too much time on called Voxel Venturers, more in-depth info in the program
