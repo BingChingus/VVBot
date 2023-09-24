@@ -126,7 +126,7 @@ public class Main
             Robot r = new Robot();
             
             // It saves screenshot to desired path
-            String path = "C:\\Users\\mrsni\\OneDrive\\Desktop\\Old PC Stuff\\Code Shenanigans\\random ass projects\\VVBot\\Image\\Image.jpeg";
+            String path = "YOUR PATH HERE";
             
             // Used to get ScreenSize and capture image
             Rectangle capture = new Rectangle(900, 768, 120, 20);
@@ -160,7 +160,7 @@ public class Main
             Thread.sleep(10);
             Robot r = new Robot();
 
-            String decPath = "C:\\Users\\mrsni\\OneDrive\\Desktop\\Old PC Stuff\\Code Shenanigans\\random ass projects\\VVBot\\Image\\decImage.jpeg";
+            String decPath = "YOUR PATH HERE";
             Rectangle decade =  new Rectangle(890, 703, 142, 20);
             BufferedImage decImage = r.createScreenCapture(decade);
             ImageIO.write(decImage, "jpg", new File(decPath));
@@ -187,7 +187,7 @@ public class Main
         File imageFile = new File(filePath);  
         ITesseract instance = new Tesseract();  
         try {  
-            instance.setDatapath("C:\\Users\\mrsni\\OneDrive\\Desktop\\Old PC Stuff\\Code Shenanigans\\random ass projects\\Tess4jShit\\tessdata"); //put in the path to the tessdata folder
+            instance.setDatapath("YOUR PATH HERE"); //put in the path to the tessdata folder
             String result = instance.doOCR(imageFile);  
             return result;  
         } catch (TesseractException e) {  
